@@ -4,15 +4,20 @@
 	<p>TenPinBowling Scores Calculation</p>
 </head>
 <body>
-	<p>Input: <input id="InputBox" type="text"></p>
-	<p>Ans: <input id="AnsBox" type="text"></p>
+	<pre>Input as "int, int, int...": <input id="InputBox" type="text" size="40"></pre>
 	</br>
-	<button onclick="Clicked()">Calculate the Score</button>
+	<pre>			Ans: <input id="AnsBox1" type="text">
+				<button onclick="V1Clicked()">Calculate the Score</button><pre>
+	<pre>			Ans: <input id="AnsBox2" type="text">
+				<button onclick="V2Clicked()">Calculate the Score</button><pre>
 	
 	<script src="TenPinBowling_Scores_Javascript.js"></script>
 	<script language="javascript">
-	function Clicked(){
-		document.getElementById("AnsBox").value = Calculate(document.getElementById("InputBox").value);
+	function V1Clicked(){
+		document.getElementById("AnsBox1").value = CalculateV1(document.getElementById("InputBox").value);
+	}
+	function V2Clicked(){
+		document.getElementById("AnsBox2").value = CalculateV2(document.getElementById("InputBox").value);
 	}
 	</script>
 
