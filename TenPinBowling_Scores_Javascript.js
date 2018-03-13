@@ -1,5 +1,4 @@
 
-function test(){
-	
-	alert( 'Hello, world!' );
+function Calculate(input){
+	return input;
 }
