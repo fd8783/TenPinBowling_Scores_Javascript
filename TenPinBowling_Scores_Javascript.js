@@ -3,8 +3,8 @@
 // HI Alex,
 // I wrote two version of codes for calculating this ten pin bowling scores problem
 // The first one(V1) is use the whole list for calculating, while use the value I should not know at that time i.e. In Turn 4, I get turn 5's score to count the bonus
-// Therefore, I come up with Version 2(V2), which is using the input value one by one and more reasonable solution for this problem
-// I think I should keep V1 here because I finished V1 first but not V2. I think this is my mistake.
+// Therefore, I come up with Version 2(V2), which is using the input value one by one and is a more reasonable solution for this problem
+// I think I should keep V1 here because I finished V1 first but not V2. This is my mistake.
 //********************************Read Me*********************************************//
 
 //Here is the codes
